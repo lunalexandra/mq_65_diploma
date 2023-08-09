@@ -12,7 +12,6 @@
   font-style: normal;
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +22,10 @@
   --decorative-color: #b59f5b;
   --text-color: #0f0d0e;
   --field-color: #f4f7f6;
+}
+
+body {
+  font-family: Open Sans, Arial, sans-serif;
 }
 
 .header {
@@ -48,7 +51,6 @@
 
 .container {
   text-align: center;
-  font-family: Open Sans, Arial, sans-serif;
   max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
@@ -69,7 +71,6 @@
   display: none;
 }
 
-
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -83,7 +84,6 @@
 
 .nav-link {
   text-decoration: none;
-  font-family: Open Sans, Arial, sans-serif;
   color: #ffffff;
   font-size: 13px;
   font-weight: normal;
@@ -111,7 +111,6 @@
 .section-title {
   position: relative;
   text-align: center;
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
@@ -131,7 +130,6 @@
   height: 3px;
   background-color: var(--decorative-color);
 }
-
 
 .trend-container {
   display: grid;
@@ -199,7 +197,6 @@
 }
 
 .color-list-link {
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
@@ -214,7 +211,6 @@
 
 
 .trend-title-link {
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
@@ -257,13 +253,11 @@
   padding: 0 30px 0 30px;
 }
 
-
 .post-title {
   line-height: 1;
 }
 
 .post-title-link {
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
@@ -283,7 +277,6 @@
 }
 
 .time {
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
   color: #888888;
@@ -294,7 +287,7 @@
 }
 
 .author {
-  font-family: Open Sans, Arial, sans-serif;
+
   font-size: 12px;
   font-weight: bold;
   color: #000000;
@@ -303,7 +296,6 @@
 }
 
 .text {
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 15px;
   font-weight: normal;
   line-height: 1.47;
@@ -318,7 +310,6 @@
 
 .aside-title {
   position: relative;
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
   line-height: 1;
@@ -366,7 +357,6 @@
 }
 
 .aside-time {
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 12px;
   font-weight: normal;
   color: #000000;
@@ -378,7 +368,6 @@
 }
 
 .new-posts-card-title-link {
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
   text-decoration: none;
@@ -407,7 +396,6 @@
 }
 
 .search-field {
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   color: #000000;
@@ -438,7 +426,6 @@
 }
 
 .email-field {
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   color: #000000;
@@ -491,7 +478,6 @@
 .tags-link {
   display: block;
   text-decoration: none;
-  font-family: Open Sans, Arial, sans-serif;
   color: var(--text-color);
   font-size: 12px;
   font-weight: bold;
@@ -525,7 +511,6 @@
 
 .topics-link {
   text-decoration: none;
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 14px;
   color: #000000;
   font-weight: bold;
@@ -538,7 +523,6 @@
 }
 
 .superscript {
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 14px;
   color: var(--decorative-color);
   font-weight: bold;
@@ -566,7 +550,6 @@
 .product-picture {
   position: relative;
   z-index: 2;
-
 }
 
 .product-description {
@@ -584,7 +567,6 @@
 }
 
 .product-title {
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
@@ -637,7 +619,6 @@
   border: none;
 }
 
-
 .market-button:hover {
   background-color: #323232;
 }
@@ -671,7 +652,6 @@
   display: block;
   text-align: center;
   text-decoration: none;
-  font-family: Open Sans, Arial, sans-serif;
   font-style: normal;
   font-size: 12px;
   color: #999999;
@@ -697,7 +677,7 @@
   background-color: #fff;
 }
 
-.button-cross {
+.close-button {
   display: none;
 }
 
@@ -714,7 +694,6 @@
 }
 
 .popup-signatures {
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 13px;
 }
 
@@ -726,7 +705,6 @@
   margin: 8px 0 28px;
   padding-left: 18px;
   background-color: #f4f7f6;
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 13px;
   border: none;
   background-image: url(../svg/form-arrows.svg);
@@ -765,7 +743,6 @@
   background-repeat: no-repeat;
 }
 
-
 .radio-button:checked+.radio-text::before {
   background-image: url(../svg/form-circle.svg);
 }
@@ -777,7 +754,6 @@
 .field-textarea {
   width: 100%;
   height: 132px;
-  font-family: Open Sans, Arial, sans-serif;
   font-size: 13px;
   padding: 18px 20px;
   margin: 6px 0 22px 0;
@@ -789,7 +765,6 @@
 .field-textarea:focus {
   outline: 2px solid var(--decorative-color);
 }
-
 
 .send-button {
   width: 100%;
@@ -805,7 +780,6 @@
 .send-button:hover {
   background-color: #323232;
 }
-
 
 .hiden {
   display: none;
@@ -852,7 +826,6 @@
     font-size: 17px;
   }
 }
-
 
 @media (min-width: 641px) and (max-width: 1199px) {
   .container {
@@ -1130,7 +1103,6 @@
     margin: 40px 0 46px 0;
   }
 }
-
 
 @media (max-width: 640px) and (orientation: landscape) {
   .trend-container {
